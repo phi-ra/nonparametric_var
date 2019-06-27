@@ -6,11 +6,13 @@ Currently only the code for the simulations and the applications as well as the 
 
 The codes should work as is, but there are doubtless still some bugs present. A large part of the simulations is parallelized to make them more efficient. Still, running all files will take about a week (depending on your hardware even longer). To make things slightly more complicated, I used three different computers for the simulations. The operating system, where the file was run is indicated at the top of each file and add some more information below.
 
-In time, I hope to provide the results and the different algorithms in form of a high-level package, but this might take a while. If you have and comments or questions, feel free to contribute. 
+In time, I hope to provide the results and the different algorithms in form of a package, but this might take a while. If you have and comments or questions, feel free to contribute. 
 
 | Name in files        | Information       | Keras version  | Tensorflow version|
 | - | - | - | - |
 | Apple-Darwin    | R version 3.5.1 (2018-07-02) |  keras_2.2.0 | 1.0.0 |
-||x86_64-apple-darwin15.6.0 (64-bit) |
-| Windows >=8   |       |    |
-| Linux Mint |     |  |
+|| x86_64-apple-darwin15.6.0 (64-bit) |
+| Windows >=8   | R version 3.5.3 (2019-01-11) | keras_2.2.4    | 1.13.1 |
+|| x86_64-w64-mingw32/x64 (64-bit) |
+| Linux Mint | R version 3.4.4 (2018-03-15) | keras_2.2.4.1 | 1.13.1 | 
+|| x86_64-pc-linux-gnu (64-bit) |
