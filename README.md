@@ -2,9 +2,9 @@
 
 This repository contains the code for the masters thesis 'Semi-Nonparametric Forecasting via ANN-sieves'.
 
-Currently only the code for the simulations and the applications as well as the data is online. The thesis itself will follow.
+The pdf-version of the thesis is available as well as the code.
 
-The codes should work as is, but there are doubtless still some bugs present. A large part of the simulations is parallelized to make them more efficient. Still, running all files will take about a week (depending on your hardware even longer). To make things slightly more complicated, I used three different computers for the simulations. The operating system, where the file was run is indicated at the top of each file and add some more information below.
+The codes should work as is, but there are doubtless still some bugs present. A large part of the simulations is parallelized to make them more efficient. Still, running all files will take about a week (depending on your hardware even longer). To make things slightly more complicated, three different computers were used for the simulations. The operating system, where the file was run is indicated at the top of each file and add some more information below.
 
 To avoid issues when saving results, `cd` into the ./Thesis directory and run
 ```
