@@ -1,0 +1,22 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!*.R
+!*.Rmd
+!template.latex
+!*.py
+!*.ipynb
+!*.md
+# etc...
+
+# ...even if they are in subdirectories
+!*/
+
+main/**/*try*
+main/**/*checkpoint*
+
+# if tVhe files to be tracked are in subdirectories
+#!*/a/b/file1.txt
+#!*/a/b/c/*

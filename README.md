@@ -1,17 +1,13 @@
-# Thesis on semi-nonparametric forecasting
+# Nonparametric Value-at-Risk (VaR) Forecasting
+## Via sieve estimation aka neural networks
 
-This repository contains the code for the masters thesis 'Semi-Nonparametric Forecasting via ANN-sieves'.
+This reposoitory contains the code for the article "Nonparametric Value-at-Risk via Sieve Estimation"
 
-The pdf-version of the thesis is available as well as the code.
+> **_NOTE:_** Currently, some code is being rewritten to work with GPU to speed up the operations - there might be the occasional hickup
+
+A .pdf file of the (work in progress) article will be added
 
 The codes should work as is, but there are doubtless still some bugs present. A large part of the simulations is parallelized to make them more efficient. Still, running all files will take about a week (depending on your hardware even longer). To make things slightly more complicated, three different computers were used for the simulations. The operating system, where the file was run is indicated at the top of each file and add some more information below.
-
-To avoid issues when saving results, `cd` into the ./Thesis directory and run
-```
-chmod +x folder_creation.sh 
-./folder_creation.sh
-```
-this will create all folders and subfolders where the results can be stored. 
 
 In time, I hope to provide the results and the different algorithms in form of a package, but this might take a while. If you have and comments or questions, feel free to contribute. 
 
