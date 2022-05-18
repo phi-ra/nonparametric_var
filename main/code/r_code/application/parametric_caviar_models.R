@@ -25,7 +25,7 @@ prepared_ge <- prepare_returns(data_ge, scale = TRUE,
 prepared_ge %>% 
   as_tibble() %>% 
   mutate(tot_ret = c(prepared_ge$returns)) %>% 
-  select(Date, returns = tot_ret) %>% 
+  dplyr::select(Date, returns = tot_ret) %>% 
   mutate(lag_return_1 = lag(returns, n = 1), 
          lag_return_2 = lag(returns, n = 2)) %>% 
   drop_na() -> all_obs_univariate
@@ -57,7 +57,6 @@ for (time_ in c(1:length(test$returns))) {
                  caviar_sav$bestPar[2]*var_pred_ +
                  caviar_sav$bestPar[3]*abs(lagged_returns[time_]))
 }
-results_caviar_univ[2:1001]
 
 caviar_number_p_01 <- VaRTest(test$returns[1:1001], results_caviar_univ[1:1001], alpha = 0.01)
 caviar_duration_p_01 <- VaRDurTest(test$returns[1:1001], results_caviar_univ[1:1001], alpha = 0.01)
